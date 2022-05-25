@@ -1,6 +1,6 @@
-package com.javaoopexercises.ClassRelationship.controller;
+package com.javaoopexercises.ClassRelationship.service;
 
-public interface FightsController {
+public interface FightsService {
 
     public abstract void introduce();
 

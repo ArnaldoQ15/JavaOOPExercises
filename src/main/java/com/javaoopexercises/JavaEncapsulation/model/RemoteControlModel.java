@@ -1,12 +1,12 @@
 package com.javaoopexercises.JavaEncapsulation.model;
 
-import com.javaoopexercises.JavaEncapsulation.controller.RemoteController;
+import com.javaoopexercises.JavaEncapsulation.service.RemoteService;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class RemoteControlModel implements RemoteController {
+public class RemoteControlModel implements RemoteService {
 
     // Declaração de variáveis
     private Integer volume; // Volume da TV

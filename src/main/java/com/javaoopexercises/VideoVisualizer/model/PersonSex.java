@@ -1,0 +1,17 @@
+package com.javaoopexercises.VideoVisualizer.model;
+
+import lombok.Getter;
+
+@Getter
+public enum PersonSex {
+
+    MALE("male"),
+    FEMALE("female");
+
+    private final String description;
+
+    PersonSex(String description) {
+        this.description = description;
+    }
+
+}

@@ -1,6 +1,6 @@
 package com.javaoopexercises.BookPublication.model;
 
-import com.javaoopexercises.BookPublication.controller.Publication;
+import com.javaoopexercises.BookPublication.service.PublicationService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,7 +8,7 @@ import java.util.Random;
 
 @Getter
 @Setter
-public class Book implements Publication {
+public class Book implements PublicationService {
 
     private String title;
     private String author;

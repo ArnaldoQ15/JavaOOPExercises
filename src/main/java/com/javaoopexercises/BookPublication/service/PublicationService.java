@@ -1,6 +1,6 @@
-package com.javaoopexercises.BookPublication.controller;
+package com.javaoopexercises.BookPublication.service;
 
-public interface Publication {
+public interface PublicationService {
 
     public void open();
     public void close();

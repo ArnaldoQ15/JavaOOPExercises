@@ -1,6 +1,6 @@
-package com.javaoopexercises.JavaEncapsulation.controller;
+package com.javaoopexercises.JavaEncapsulation.service;
 
-public interface RemoteController {
+public interface RemoteService {
 
     public abstract void on();
 

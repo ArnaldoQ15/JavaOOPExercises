@@ -1,6 +1,6 @@
 package com.javaoopexercises.ClassRelationship.model;
 
-import com.javaoopexercises.ClassRelationship.controller.FightsController;
+import com.javaoopexercises.ClassRelationship.service.FightsService;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,7 +8,7 @@ import java.util.Random;
 
 @Getter
 @Setter
-public class FighterModel implements FightsController {
+public class FighterModel implements FightsService {
 
     private String name;
     private String nationality;
