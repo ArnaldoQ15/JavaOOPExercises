@@ -9,6 +9,7 @@ public class Main {
         Fish f = new Fish();
         Bird b = new Bird();
         Carp c = new Carp();
+        LittleCarp lt = new LittleCarp();
 
         m.setWeight(50.6F);
         m.setAge(6);
@@ -27,6 +28,11 @@ public class Main {
         b.move();
 
         c.move();
+
+        lt.setWeight(59.9F);
+        lt.setAge(6);
+        lt.move(lt.getAge(), lt.getWeight());
+        lt.move(lt.getAge());
 
     }
 
